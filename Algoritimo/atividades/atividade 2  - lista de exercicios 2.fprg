@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="bruno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-06 08:17:01 "/>
+        <attribute name="created" value="YnJ1bm87TEFCLUZBTlRBU01BLU5POzIwMjMtMDktMDY7IjA3OjU2OjQ2ICI7Mjc5Ng=="/>
+        <attribute name="edited" value="YnJ1bm87TEFCLUZBTlRBU01BLU5POzIwMjMtMDktMDY7IjA4OjE3OjAxICI7MTsyODkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="contar" type="Integer" array="False" size=""/>
+            <assign variable="contar" expression="0"/>
+            <while expression="contar &lt; 10">
+                <assign variable="contar" expression="contar + 1"/>
+                <output expression="&quot;numero &quot; &amp; contar" newline="True"/>
+            </while>
+            <output expression="&quot;fim de contagem.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
