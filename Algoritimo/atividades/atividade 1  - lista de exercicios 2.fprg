@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="bruno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-06 07:50:50 "/>
+        <attribute name="created" value="YnJ1bm87TEFCLUZBTlRBU01BLU5POzIwMjMtMDktMDY7IjA3OjIyOjM2ICI7Mjc4OA=="/>
+        <attribute name="edited" value="YnJ1bm87TEFCLUZBTlRBU01BLU5POzIwMjMtMDktMDY7IjA3OjUwOjUwICI7MTsyODkz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="val1" type="Integer" array="False" size=""/>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <assign variable="soma" expression="0"/>
+            <output expression="&quot;Digite um numero&quot;" newline="True"/>
+            <input variable="val1"/>
+            <while expression="val1!= 0">
+                <assign variable="soma" expression="soma + val1"/>
+                <output expression="&quot;Digite um numero&quot;" newline="True"/>
+                <input variable="val1"/>
+            </while>
+            <output expression="&quot;A soma eh:&quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
