@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="bruno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-06 09:08:41 "/>
+        <attribute name="created" value="YnJ1bm87TEFCLUZBTlRBU01BLU5POzIwMjMtMDktMDY7IjA4OjMzOjI2ICI7Mjc5MA=="/>
+        <attribute name="edited" value="YnJ1bm87TEFCLUZBTlRBU01BLU5POzIwMjMtMDktMDY7IjA5OjA4OjQxICI7MzsyOTAw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <declare name="cont" type="Integer" array="False" size=""/>
+            <assign variable="cont" expression="0"/>
+            <assign variable="soma" expression="0"/>
+            <output expression="&quot;Digite um valor&quot;" newline="True"/>
+            <input variable="x"/>
+            <while expression="x != 0">
+                <assign variable="soma" expression="soma + x"/>
+                <assign variable="cont" expression="cont + 1"/>
+                <output expression="&quot;Digite outro valor&quot;" newline="True"/>
+                <input variable="x"/>
+            </while>
+            <assign variable="soma" expression="soma/cont"/>
+            <output expression="&quot;A m&#233;dia &#233;: &quot; &amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
