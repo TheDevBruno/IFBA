@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="bruno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-07 11:01:51 "/>
+        <attribute name="created" value="YnJ1bm87TEFCLUZBTlRBU01BLU5POzIwMjMtMDktMDY7IjA3OjU2OjQ2ICI7Mjc5Ng=="/>
+        <attribute name="edited" value="YnJ1bm87TEFCLUZBTlRBU01BLU5POzIwMjMtMDktMDc7IjExOjAxOjUxICI7NjsyODkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="soma, numero, multiplicador" type="Integer" array="False" size=""/>
+            <input variable="numero"/>
+            <for variable="multiplicador" start="1" end="10" direction="inc" step="1">
+                <assign variable="soma" expression="numero * multiplicador"/>
+                <output expression="numero &amp; &quot; X &quot; &amp; multiplicador &amp; &quot; = &quot; &amp; soma" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
