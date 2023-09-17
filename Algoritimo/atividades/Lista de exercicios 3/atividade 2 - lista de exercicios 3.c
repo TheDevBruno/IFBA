@@ -1,18 +1,20 @@
 #include <stdio.h>
 
-int main()
-{
-	int num, anterior = 0, posterior = 0;
-	
-	printf("Digite um valor \n");
-	scanf("%d", &num);
-	
-	anterior = num -1;
-	posterior = num +1;
-	
-	printf("O numero anterior eh: %d \n", anterior);
-	printf("O numero digitado foi: %d \n", num);
-	printf("O numero posterior eh: %d \n", posterior);
-	
-	return 0;
-}	
+int main(){
+
+    int num1, num2, soma;
+
+    printf("Digite um valor: ");
+    scanf("%d", &num1);
+
+    printf("Digite outro valor: ");
+    scanf("%d", &num2);
+
+    soma = num1 + num2;
+
+
+    printf("A soma dos dois valores eh: %d", soma);
+
+
+return 0;
+}
